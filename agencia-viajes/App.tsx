@@ -8,15 +8,15 @@ import {
   ScrollView,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { destinations } from "./data/destinations";
-import { DestinationCard } from "./components/DestinationCard";
-import { SearchBar } from "./components/SearchBar";
-import { Header } from "./components/Header";
+import { destinations } from "./TURISMO-SV/data/destinations";
+import { DestinationCard } from "./TURISMO-SV/components/DestinationCard";
+import { SearchBar } from "./TURISMO-SV/components/SearchBar";
+import { Header } from "./TURISMO-SV/components/Header";
 import { useState } from "react";
-import { foods } from "./data/foods";
-import { FoodCard } from "./components/FoodCard";
-import { routes } from "./data/routes";
-import { RouteCard } from "./components/RouteCard";
+import { foods } from "./TURISMO-SV/data/foods";
+import { FoodCard } from "./TURISMO-SV/components/FoodCard";
+import { routes } from "./TURISMO-SV/data/routes";
+import { RouteCard } from "./TURISMO-SV/components/RouteCard";
 
 export default function App() {
   const [search, setSearch] = useState("");
